@@ -24,11 +24,13 @@ function draw()
   if (x + radius > width || x - radius < 0) 
   {
     xSpeed *= -1;
+    console.log("log");
   }
 
   
   if (y + radius > height || y - radius < 0) 
   {
     ySpeed *= -1;
+    console.log("y-");
   }
 }

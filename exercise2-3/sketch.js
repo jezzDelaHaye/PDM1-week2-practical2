@@ -17,8 +17,6 @@ function draw()
   fill(0, 150, 255);
   noStroke();
   ellipse(x, y, diameter, diameter);
-
-  
   x += xSpeed;
   y += ySpeed;
 
